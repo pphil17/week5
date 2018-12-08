@@ -20,7 +20,7 @@ done
     echo "The numbers that are less then ten are: "$count
     echo "The total value of all numbers less than ten are: "$total
 
-
+# DB: Good!
 
 
 
@@ -61,7 +61,8 @@ fi
         echo "The numbers that are less then ten are: "$count
         echo "The total value of all numbers less than ten are: "$total
 
-
+# DB: Also good! And thanks for referencing where you found this syntax. Could also include
+#     a link for future reference.
 
 
 
@@ -73,3 +74,5 @@ Attempt 3
 read fname
 cat $fname | awk '{ if(($1>10) && ($2<10)){print}}'
 exit
+
+# DB: Also good!
